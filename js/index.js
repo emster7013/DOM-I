@@ -90,3 +90,13 @@ botP[1].textContent = siteContent['main-content']['product-content'];
 botP[2].textContent = siteContent['main-content']['vision-content'];
 
 /*Contact*/
+let contactH4= document.querySelectorAll('.contact h4');
+contactH4[0].textContent = siteContent['contact']['contact-h4'];
+let contP=document.querySelectorAll('.contact p');
+contP[0].textContent = siteContent['contact']['address'];
+contP[1].textContent = siteContent['contact']['phone'];
+contP[2].textContent =siteContent['contact']['email'];
+
+/*Footer*/
+let footer = document.querySelector('footer p');
+footerP[0].textContent = siteContent['footer']['copyright'];
